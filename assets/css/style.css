@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    color: rgba(0 0 0 /0.7);
+}
+
+header ol {
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px)  { 
+  .grid-container {
+     display: grid;
+     grid-template-columns: 9fr 3fr;
+   }
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+input, button[type=''] {
+
+}
+input:focus {
+
+}
